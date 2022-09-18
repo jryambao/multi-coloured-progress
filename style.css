@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.container {
+    background-color: rgb(247, 243, 243);
+    width: 40%;
+    border-radius: 15px;
+   
+    border-width: thin;
+}
+
+.progress {
+    border: 1px solid #000;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 50%;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.btn{
+    text-align: center;
+}
+
+#progress1 {
+    background-color: #acdc64;    
+}
+
+#progress2 {
+    background-color: #fea499;    
+}
+
+#progress3 {
+    background-color: #fff;
+}
+
+#progress4 {
+    background-color: #a8d7f3;
+}
+
+#progress5 {
+    background-color: #ffcf61;
+}
